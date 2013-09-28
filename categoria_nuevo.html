@@ -42,54 +42,22 @@
     </section>
   </nav>
 
-  <section class="main">
+  <section class="main" id="new-inventory">
     <div class="row header">
       <div class="small-2 large-4 columns">
-        <h3>Categorías</h3>
-      </div>
-      <div class="small-2 large-4 columns">
-        <a class="small button" href="categoria_nuevo.html">Nueva categoría</a>
+        <h3>Nueva Categoría</h3>
       </div>
     </div>
     <div class="row">
-      <table>
-        <thead>
-          <tr>
-            <th>Nombre</th>
-            <th>Cantidad de productos</th>
-            <th>Acciones</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Abarrotes</td>
-            <td>190</td>
-            <td>
-              <a href="#">Ver</a>
-              <a href="#">Editar</a>
-              <a href="#">Eliminar</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Cuidado personal</td>
-            <td>70</td>
-            <td>
-              <a href="#">Ver</a>
-              <a href="#">Editar</a>
-              <a href="#">Eliminar</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Limpieza</td>
-            <td>55</td>
-            <td>
-              <a href="#">Ver</a>
-              <a href="#">Editar</a>
-              <a href="#">Eliminar</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <form class="small-9 large-centered columns panel">
+        <p class="input">
+          <label for="category_name">Nombre:</label>
+          <input type="text" id="category_name" />
+        </p>
+        <p class="actions">
+          <input type="submit" value="Crear Producto" class="button" />
+        </p>
+      </form>
     </div>
   </section>
 </body>
